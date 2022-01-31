@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Pac-man</title>
+	<style>
+.rotated_90 {
+  transform: rotate(90deg); /* Equal to rotateZ(90deg) */
+  #background-color: pink;
+}
+.rotated_zero {
+  transform: rotate(0deg); /* Equal to rotateZ(0deg) */
+  #background-color: pink;
+}
+	</style>
+  </head>
+  <body>
+    <img
+      id="PacMan"
+      src="images/PacMan1.png"
+      onclick="Run()"
+      style="position: absolute"
+	  class="rotated_zero"
+    />
+
+    <!-- DO NOT CHANGE THIS LINE OF CODE -->
+    <script src="./pacman2.js"></script>
+  </body>
+</html>
