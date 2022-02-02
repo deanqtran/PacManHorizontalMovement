@@ -6,7 +6,7 @@ ___
   <li>Manipulate the images to simulate the PacMan mouth close and open</li>
   <li>Use Array</li>
   <li>Change the horizontal movement direction when hitting edges</li>
-  <li>Use TimeInterval() function</li>
+  <li>Use setInterval() function</li>
 </ul>
 
 ### **Installation**:
